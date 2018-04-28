@@ -1,0 +1,24 @@
+{
+  "name": "serverrendering",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/icodetaker/WebApps.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/icodetaker/WebApps/issues"
+  },
+  "homepage": "https://github.com/icodetaker/WebApps#readme",
+  "dependencies": {
+    "aspnet-prerendering": "^3.0.1",
+    "ts-loader": "^4.2.0",
+    "typescript": "^2.8.3"
+  }
+}
