@@ -20,5 +20,11 @@
     "aspnet-prerendering": "^3.0.1",
     "ts-loader": "^4.2.0",
     "typescript": "^2.8.3"
-  }
+  },
+  "devDependencies": {
+    "webpack-cli": "^2.0.15"
+  },
+
+  "dev":"webpack --mode development",
+  "build":"webpack --mode production"
 }
