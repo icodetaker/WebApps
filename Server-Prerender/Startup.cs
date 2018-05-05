@@ -11,7 +11,7 @@ namespace ServerRendering
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc();
-            services.AddNodeServices();
+            services.AddNodeServices(x => x.LaunchWithDebugging = true);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
