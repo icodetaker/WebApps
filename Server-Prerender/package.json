@@ -24,7 +24,6 @@
   "devDependencies": {
     "webpack-cli": "^2.0.15"
   },
-
-  "dev":"webpack --mode development",
-  "build":"webpack --mode production"
+  "dev": "webpack --mode development",
+  "build": "webpack --mode production"
 }
